@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/space"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView_bl"
+        android:layout_width="299dp"
+        android:layout_height="101dp"
+        android:src="@drawable/bl" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UTS MOBILE PROGRAMMING-S2"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ARYA KEDATON (2112510132)"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MUHAMMAD DAIFULLAH (2112500596)"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MUHAMMAD NAUFAL FADHIL HARVIAN (2112510066)"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="#ffffff"/>
+</LinearLayout>
